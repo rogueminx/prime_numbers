@@ -4,7 +4,7 @@ require ('pry')
 
 describe ('#sifting') do
   it ("return all of the prime numbers less than the input number") do
-    change = Prime.new()
-    expect(sifting(4)).to(eq([2, 3]))
+    prime_return = Prime.new()
+    expect(prime_return.sifting(4)).to(eq([2, 3, 4]))
   end
 end

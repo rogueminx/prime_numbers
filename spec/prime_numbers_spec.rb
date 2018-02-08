@@ -3,7 +3,8 @@ require ('rspec')
 require ('pry')
 
 describe ('#sifting') do
-  it ("will give 1 cent in change for something that costs a 4 cent") do
-    change = MakeMoneyMoney.new()
-    expect(change.changemaker(4, 5)).to(eq([1]))
+  it ("return all of the prime numbers less than the input number") do
+    change = Prime.new()
+    expect(sifting(4)).to(eq([2, 3]))
   end
+end
